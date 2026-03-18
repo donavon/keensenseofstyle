@@ -27,10 +27,10 @@ export function PrivateEvents() {
             bar.
           </p>
           <p className="font-sans text-white/60 text-sm leading-relaxed md:text-right">
-            But the bar is just the beginning. Whether you need additional
-            event support, styling for the occasion, or simply someone who
-            knows how to make a room feel right — reach out and let's talk
-            about what you have in mind.
+            But the bar is just the beginning. Whether you need additional event
+            support, styling for the occasion, or simply someone who knows how
+            to make a room feel right — reach out and let's talk about what you
+            have in mind.
           </p>
         </div>
       </div>

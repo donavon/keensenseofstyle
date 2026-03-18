@@ -1,4 +1,4 @@
-import { OrbitingGallery } from "../../components/orbiting-gallery";
+import { OrbitingGallery } from "~/components/orbiting-gallery";
 import photo1 from "./photos/photo-1.webp";
 import photo2 from "./photos/photo-2.webp";
 import photo3 from "./photos/photo-3.webp";

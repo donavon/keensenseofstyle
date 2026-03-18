@@ -1,11 +1,10 @@
-import type { Route } from "./+types/home";
 import { Hero } from "./hero";
 import { StyleConsulting } from "./style-consulting";
 import { PrivateEvents } from "./private-events";
 import { Contact } from "./contact";
 import { Footer } from "./footer";
 
-export function meta({}: Route.MetaArgs) {
+export function meta() {
   return [
     { title: "Keen Sense of Style" },
     {

@@ -20,16 +20,15 @@ export function StyleConsulting() {
             Personal Style Consulting
           </h2>
           <p className="font-sans text-white/60 text-sm leading-relaxed">
-            Your wardrobe should tell the story you want to tell. Whether
-            you're building a look from scratch or refining what you already
-            have, I work with you to develop a personal style that feels
-            effortless and authentically yours.
+            Your wardrobe should tell the story you want to tell. Whether you're
+            building a look from scratch or refining what you already have, I
+            work with you to develop a personal style that feels effortless and
+            authentically yours.
           </p>
           <p className="font-sans text-white/60 text-sm leading-relaxed">
-            Services include wardrobe edits, personal shopping, outfit
-            curation, and styling for special occasions. Every session is
-            tailored — no two clients, no two closets, no two visions are ever
-            the same.
+            Services include wardrobe edits, personal shopping, outfit curation,
+            and styling for special occasions. Every session is tailored — no
+            two clients, no two closets, no two visions are ever the same.
           </p>
           <p className="font-sans text-white/60 text-sm leading-relaxed">
             Style isn't about following trends. It's about knowing yourself.

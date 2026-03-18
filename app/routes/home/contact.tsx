@@ -10,8 +10,8 @@ export function Contact() {
           Let's Work Together
         </h2>
         <p className="font-sans text-white/60 text-sm leading-relaxed text-balance">
-          Ready to elevate your style or plan your next event? Slide into my
-          DMs on Instagram. I'd love to hear from you.
+          Ready to elevate your style or plan your next event? Slide into my DMs
+          on Instagram. I'd love to hear from you.
         </p>
         <a
           href="https://instagram.com/KeenSenseofStyle"
