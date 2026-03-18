@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    /* Dark Slate for light mode */
+    .icon { fill: #1A1B1E; } 
+    /* Champagne Gold for dark mode */
+    @media (prefers-color-scheme: dark) {
+      .icon { fill: #D4AF37; }
+    }
+  </style>
+  <path class="icon" d="M25 15 v35 m0 10 v25 M25 50 L65 15 M35 42 L75 85" 
+        stroke="currentColor" stroke-width="12" stroke-linecap="round" fill="none" />
+</svg>
