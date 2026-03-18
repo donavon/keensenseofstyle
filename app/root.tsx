@@ -9,6 +9,45 @@ import {
 
 import type { Route } from "./+types/root";
 import "./app.css";
+import ogImage from "./assets/og-image.png";
+
+export function loader({ request }: Route.LoaderArgs) {
+  const { origin } = new URL(request.url);
+  return { origin };
+}
+
+export function meta({ loaderData }: Route.MetaArgs) {
+  const title = "Keen Sense of Style";
+  const description =
+    "Personal styling, wardrobe consulting, and private event services in New York City.";
+
+  // Use a hardcoded fallback for ErrorBoundary or 404 scenarios
+  const origin = loaderData?.origin || "https://keensenseofstyle.com";
+  const absoluteOgImage = new URL(ogImage, origin).href;
+
+  return [
+    { title },
+    { name: "description", content: description },
+
+    // Open Graph (Facebook, LinkedIn, etc.)
+    { property: "og:site_name", content: title },
+    { property: "og:title", content: title },
+    { property: "og:description", content: description },
+    { property: "og:image", content: absoluteOgImage },
+    { property: "og:url", content: origin },
+    { property: "og:type", content: "website" },
+
+    // Twitter / X
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:title", content: title },
+    { name: "twitter:description", content: description },
+    { name: "twitter:image", content: absoluteOgImage },
+
+    // Search Engine Optimization
+    { name: "robots", content: "index, follow" },
+    { rel: "canonical", href: origin },
+  ];
+}
 
 export const links: Route.LinksFunction = () => [
   {
