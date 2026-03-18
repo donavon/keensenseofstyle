@@ -11,8 +11,8 @@ import photo8 from "./photos/photo-8.webp";
 const photos = [
   { src: photo1, alt: "" },
   { src: photo2, alt: "" },
-  { src: photo4, alt: "" },
   { src: photo5, alt: "" },
+  { src: photo4, alt: "" },
   { src: photo6, alt: "" },
   { src: photo3, alt: "" },
   { src: photo7, alt: "" },
